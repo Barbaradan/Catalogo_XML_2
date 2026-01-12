@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root model="XML_STUDY" ossversion="1.0" vendor="FAKE_VENDOR">
+    <table active="TRUE" id="TABLE_120" ossId="TABLE_120" partitionof="TABLE_120" pdfOnly="False" tableName="t120" tech="4G" udn="table120">
+        <column bdcolname="CELULA" bdtype="VARCHAR2(26)" dbn0type="PK" id="CELULA" udn="celula"/>
+        <column bdcolname="RS_CELULA" bdtype="VARCHAR2(26)" dbn0type="PK" id="RS_CELULA" udn="rsCelula"/>
+        <column bdcolname="BANDA" bdtype="VARCHAR2(26)" dbn0type="ID" id="BANDA" udn="banda"/>
+        <column bdcolname="SETOR_FISICO" bdtype="NUMBER" dbn0type="ID" id="SETOR_FISICO" udn="setorFisico"/>
+        <column bdcolname="SETOR_LOGICO" bdtype="NUMBER" dbn0type="ID" id="SETOR_LOGICO" udn="setorLogico"/>
+        <column bdcolname="STATUS_ERB" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_ERB" udn="statusErb"/>
+        <column bdcolname="STATUS_BANDA" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_BANDA" udn="statusBanda"/>
+        <column bdcolname="STATUS_PORTADORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_PORTADORA" udn="statusPortadora"/>
+        <column bdcolname="STATUS_BSC" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_BSC" udn="statusBsc"/>
+        <column bdcolname="TIPO_COBERTURA" bdtype="VARCHAR2(26)" dbn0type="ID" id="TIPO_COBERTURA" udn="tipoCobertura"/>
+        <column bdcolname="TIPO_ERB" bdtype="VARCHAR2(26)" dbn0type="ID" id="TIPO_ERB" udn="tipoErb"/>
+        <column bdcolname="SITE_VIP" bdtype="VARCHAR2(26)" dbn0type="ID" id="SITE_VIP" udn="siteVip"/>
+        <column bdcolname="ACEITE_OEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="ACEITE_OEM" udn="aceiteOem"/>
+        <column bdcolname="ACEITE_RF" bdtype="VARCHAR2(26)" dbn0type="ID" id="ACEITE_RF" udn="aceiteRf"/>
+        <column bdcolname="REPROVADO_OEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="REPROVADO_OEM" udn="reprovadoOem"/>
+        <column bdcolname="REPROVADO_RF" bdtype="VARCHAR2(26)" dbn0type="ID" id="REPROVADO_RF" udn="reprovadoRf"/>
+        <column bdcolname="AZIMUTE" bdtype="NUMBER" dbn0type="ID" id="AZIMUTE" udn="azimute"/>
+        <column bdcolname="LATITUDE" bdtype="VARCHAR2(26)" dbn0type="ID" id="LATITUDE" udn="latitude"/>
+        <column bdcolname="LONGITUDE" bdtype="VARCHAR2(26)" dbn0type="ID" id="LONGITUDE" udn="longitude"/>
+        <column bdcolname="LATITUDE_DECIMAL" bdtype="NUMBER" dbn0type="ID" id="LATITUDE_DECIMAL" udn="latitudeDecimal"/>
+        <column bdcolname="LONGITUDE_DECIMAL" bdtype="NUMBER" dbn0type="ID" id="LONGITUDE_DECIMAL" udn="longitudeDecimal"/>
+        <column bdcolname="LAC" bdtype="NUMBER" dbn0type="ID" id="LAC" udn="lac"/>
+        <column bdcolname="TAC" bdtype="NUMBER" dbn0type="ID" id="TAC" udn="tac"/>
+        <column bdcolname="CGI" bdtype="VARCHAR2(26)" dbn0type="PK" id="CGI" udn="cgi"/>
+        <column bdcolname="TAI_TAC" bdtype="NUMBER" dbn0type="ID" id="TAI_TAC" udn="taiTac"/>
+        <column bdcolname="MODELO_ERB" bdtype="VARCHAR2(255)" dbn0type="ID" id="MODELO_ERB" udn="modeloErb"/>
+        <column bdcolname="MODELO_BSC" bdtype="VARCHAR2(26)" dbn0type="ID" id="MODELO_BSC" udn="modeloBsc"/>
+        <column bdcolname="DETENTORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="DETENTORA" udn="detentora"/>
+        <column bdcolname="RS_CONTRATO" bdtype="VARCHAR2(255)" dbn0type="ID" id="RS_CONTRATO" udn="rsContrato"/>
+        <column bdcolname="RS_LEGADO_PORTADORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="RS_LEGADO_PORTADORA" udn="rsLegadoPortadora"/>
+        <column bdcolname="NOVA_COLUNA_2" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA" udn="novaColuna"/>
+        <column bdcolname="NOVA_COLUNA_3" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA_TESTE" udn="novaColunaTeste"/>
+    </table>
+    <table active="TRUE" id="TABLE_130" ossId="TABLE_130" partitionof="TABLE_130" pdfOnly="False" tableName="t130" tech="4G" udn="table130">
+        <column bdcolname="CELULA" bdtype="VARCHAR2(26)" dbn0type="PK" id="CELULA" udn="celula"/>
+        <column bdcolname="RS_CELULA" bdtype="VARCHAR2(26)" dbn0type="PK" id="RS_CELULA" udn="rsCelula"/>
+        <column bdcolname="BANDA" bdtype="VARCHAR2(26)" dbn0type="ID" id="BANDA" udn="banda"/>
+        <column bdcolname="SETOR_FISICO" bdtype="NUMBER" dbn0type="ID" id="SETOR_FISICO" udn="setorFisico"/>
+        <column bdcolname="SETOR_LOGICO" bdtype="NUMBER" dbn0type="ID" id="SETOR_LOGICO" udn="setorLogico"/>
+        <column bdcolname="STATUS_ERB" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_ERB" udn="statusErb"/>
+        <column bdcolname="STATUS_BANDA" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_BANDA" udn="statusBanda"/>
+        <column bdcolname="STATUS_PORTADORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_PORTADORA" udn="statusPortadora"/>
+        <column bdcolname="STATUS_BSC" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_BSC" udn="statusBsc"/>
+        <column bdcolname="TIPO_COBERTURA" bdtype="VARCHAR2(26)" dbn0type="ID" id="TIPO_COBERTURA" udn="tipoCobertura"/>
+        <column bdcolname="TIPO_ERB" bdtype="VARCHAR2(26)" dbn0type="ID" id="TIPO_ERB" udn="tipoErb"/>
+        <column bdcolname="SITE_VIP" bdtype="VARCHAR2(26)" dbn0type="ID" id="SITE_VIP" udn="siteVip"/>
+        <column bdcolname="ACEITE_OEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="ACEITE_OEM" udn="aceiteOem"/>
+        <column bdcolname="ACEITE_RF" bdtype="VARCHAR2(26)" dbn0type="ID" id="ACEITE_RF" udn="aceiteRf"/>
+        <column bdcolname="REPROVADO_OEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="REPROVADO_OEM" udn="reprovadoOem"/>
+        <column bdcolname="REPROVADO_RF" bdtype="VARCHAR2(26)" dbn0type="ID" id="REPROVADO_RF" udn="reprovadoRf"/>
+        <column bdcolname="AZIMUTE" bdtype="NUMBER" dbn0type="ID" id="AZIMUTE" udn="azimute"/>
+        <column bdcolname="LATITUDE" bdtype="VARCHAR2(26)" dbn0type="ID" id="LATITUDE" udn="latitude"/>
+        <column bdcolname="LONGITUDE" bdtype="VARCHAR2(26)" dbn0type="ID" id="LONGITUDE" udn="longitude"/>
+        <column bdcolname="LATITUDE_DECIMAL" bdtype="NUMBER" dbn0type="ID" id="LATITUDE_DECIMAL" udn="latitudeDecimal"/>
+        <column bdcolname="LONGITUDE_DECIMAL" bdtype="NUMBER" dbn0type="ID" id="LONGITUDE_DECIMAL" udn="longitudeDecimal"/>
+        <column bdcolname="LAC" bdtype="NUMBER" dbn0type="ID" id="LAC" udn="lac"/>
+        <column bdcolname="TAC" bdtype="NUMBER" dbn0type="ID" id="TAC" udn="tac"/>
+        <column bdcolname="CGI" bdtype="VARCHAR2(26)" dbn0type="PK" id="CGI" udn="cgi"/>
+        <column bdcolname="TAI_TAC" bdtype="NUMBER" dbn0type="ID" id="TAI_TAC" udn="taiTac"/>
+        <column bdcolname="MODELO_ERB" bdtype="VARCHAR2(255)" dbn0type="ID" id="MODELO_ERB" udn="modeloErb"/>
+        <column bdcolname="MODELO_BSC" bdtype="VARCHAR2(26)" dbn0type="ID" id="MODELO_BSC" udn="modeloBsc"/>
+        <column bdcolname="DETENTORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="DETENTORA" udn="detentora"/>
+        <column bdcolname="RS_CONTRATO" bdtype="VARCHAR2(255)" dbn0type="ID" id="RS_CONTRATO" udn="rsContrato"/>
+        <column bdcolname="RS_LEGADO_PORTADORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="RS_LEGADO_PORTADORA" udn="rsLegadoPortadora"/>
+        <column bdcolname="NOVA_COLUNA" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA" udn="novaColuna"/>
+        <column bdcolname="NOVA_COLUNA_3" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA_TESTE" udn="novaColunaTeste"/>
+    </table>
+    <table active="TRUE" id="TABLE_140" ossId="TABLE_140" partitionof="TABLE_140" pdfOnly="False" tableName="t140" tech="4G" udn="table140">
+        <column bdcolname="CELULA" bdtype="VARCHAR2(26)" dbn0type="PK" id="CELULA" udn="celula"/>
+        <column bdcolname="RS_CELULA" bdtype="VARCHAR2(26)" dbn0type="PK" id="RS_CELULA" udn="rsCelula"/>
+        <column bdcolname="BANDA" bdtype="VARCHAR2(26)" dbn0type="ID" id="BANDA" udn="banda"/>
+        <column bdcolname="SETOR_FISICO" bdtype="NUMBER" dbn0type="ID" id="SETOR_FISICO" udn="setorFisico"/>
+        <column bdcolname="SETOR_LOGICO" bdtype="NUMBER" dbn0type="ID" id="SETOR_LOGICO" udn="setorLogico"/>
+        <column bdcolname="STATUS_ERB" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_ERB" udn="statusErb"/>
+        <column bdcolname="STATUS_BANDA" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_BANDA" udn="statusBanda"/>
+        <column bdcolname="STATUS_PORTADORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_PORTADORA" udn="statusPortadora"/>
+        <column bdcolname="STATUS_BSC" bdtype="VARCHAR2(26)" dbn0type="ID" id="STATUS_BSC" udn="statusBsc"/>
+        <column bdcolname="TIPO_COBERTURA" bdtype="VARCHAR2(26)" dbn0type="ID" id="TIPO_COBERTURA" udn="tipoCobertura"/>
+        <column bdcolname="TIPO_ERB" bdtype="VARCHAR2(26)" dbn0type="ID" id="TIPO_ERB" udn="tipoErb"/>
+        <column bdcolname="SITE_VIP" bdtype="VARCHAR2(26)" dbn0type="ID" id="SITE_VIP" udn="siteVip"/>
+        <column bdcolname="ACEITE_OEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="ACEITE_OEM" udn="aceiteOem"/>
+        <column bdcolname="ACEITE_RF" bdtype="VARCHAR2(26)" dbn0type="ID" id="ACEITE_RF" udn="aceiteRf"/>
+        <column bdcolname="REPROVADO_OEM" bdtype="VARCHAR2(26)" dbn0type="ID" id="REPROVADO_OEM" udn="reprovadoOem"/>
+        <column bdcolname="REPROVADO_RF" bdtype="VARCHAR2(26)" dbn0type="ID" id="REPROVADO_RF" udn="reprovadoRf"/>
+        <column bdcolname="AZIMUTE" bdtype="NUMBER" dbn0type="ID" id="AZIMUTE" udn="azimute"/>
+        <column bdcolname="LATITUDE" bdtype="VARCHAR2(26)" dbn0type="ID" id="LATITUDE" udn="latitude"/>
+        <column bdcolname="LONGITUDE" bdtype="VARCHAR2(26)" dbn0type="ID" id="LONGITUDE" udn="longitude"/>
+        <column bdcolname="LATITUDE_DECIMAL" bdtype="NUMBER" dbn0type="ID" id="LATITUDE_DECIMAL" udn="latitudeDecimal"/>
+        <column bdcolname="LONGITUDE_DECIMAL" bdtype="NUMBER" dbn0type="ID" id="LONGITUDE_DECIMAL" udn="longitudeDecimal"/>
+        <column bdcolname="LAC" bdtype="NUMBER" dbn0type="ID" id="LAC" udn="lac"/>
+        <column bdcolname="TAC" bdtype="NUMBER" dbn0type="ID" id="TAC" udn="tac"/>
+        <column bdcolname="CGI" bdtype="VARCHAR2(26)" dbn0type="PK" id="CGI" udn="cgi"/>
+        <column bdcolname="TAI_TAC" bdtype="NUMBER" dbn0type="ID" id="TAI_TAC" udn="taiTac"/>
+        <column bdcolname="MODELO_ERB" bdtype="VARCHAR2(255)" dbn0type="ID" id="MODELO_ERB" udn="modeloErb"/>
+        <column bdcolname="MODELO_BSC" bdtype="VARCHAR2(26)" dbn0type="ID" id="MODELO_BSC" udn="modeloBsc"/>
+        <column bdcolname="DETENTORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="DETENTORA" udn="detentora"/>
+        <column bdcolname="RS_CONTRATO" bdtype="VARCHAR2(255)" dbn0type="ID" id="RS_CONTRATO" udn="rsContrato"/>
+        <column bdcolname="RS_LEGADO_PORTADORA" bdtype="VARCHAR2(26)" dbn0type="ID" id="RS_LEGADO_PORTADORA" udn="rsLegadoPortadora"/>
+        <column bdcolname="NOVA_COLUNA_2" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA" udn="novaColuna"/>
+        <column bdcolname="NOVA_COLUNA_3" bdtype="VARCHAR2(50)" dbn0type="ID" id="NOVA_COLUNA_TESTE" udn="novaColunaTeste"/>
+    </table>
+</root>
